@@ -1,92 +1,194 @@
 fileFormatVersion: 2
 guid: 5fde696e06d916548be814f8c438f7ce
-timeCreated: 1514480432
+timeCreated: 1514513990
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
-    100000: Camera
-    100002: Chest
-    100004: Collar
-    100006: CreamArmature
-    100008: CreamBody
-    100010: CreamLeftEye
-    100012: CreamRightEye
-    100014: //RootNode
-    100016: Dress
-    100018: Foot.L
-    100020: Foot.L_end
-    100022: Foot.R
-    100024: Foot.R_end
-    100026: Hand.L
-    100028: Hand.L_end
-    100030: Hand.R
-    100032: Hand.R_end
-    100034: Head
-    100036: Head_end
-    100038: Hips
-    100040: LowerArm.L
-    100042: LowerArm.R
-    100044: LowerLeg.L
-    100046: LowerLeg.R
-    100048: Shoulder.L
-    100050: Shoulder.R
-    100052: Spine
-    100054: Tie
-    100056: UpperArm.L
-    100058: UpperArm.R
-    100060: UpperLeg.L
-    100062: UpperLeg.R
-    400000: Camera
-    400002: Chest
-    400004: Collar
-    400006: CreamArmature
-    400008: CreamBody
-    400010: CreamLeftEye
-    400012: CreamRightEye
-    400014: //RootNode
-    400016: Dress
-    400018: Foot.L
-    400020: Foot.L_end
-    400022: Foot.R
-    400024: Foot.R_end
-    400026: Hand.L
-    400028: Hand.L_end
-    400030: Hand.R
-    400032: Hand.R_end
-    400034: Head
-    400036: Head_end
-    400038: Hips
-    400040: LowerArm.L
-    400042: LowerArm.R
-    400044: LowerLeg.L
-    400046: LowerLeg.R
-    400048: Shoulder.L
-    400050: Shoulder.R
-    400052: Spine
-    400054: Tie
-    400056: UpperArm.L
-    400058: UpperArm.R
-    400060: UpperLeg.L
-    400062: UpperLeg.R
-    2000000: Camera
-    4300000: CreamBody
-    4300002: Collar
-    4300004: Tie
+    100000: Chest
+    100002: Collar
+    100004: CreamArmature
+    100006: CreamBody
+    100008: CreamLeftEye
+    100010: CreamRightEye
+    100012: //RootNode
+    100014: Dress
+    100016: Eye.L
+    100018: Eye.L_end
+    100020: Eye.R
+    100022: Eye.R_end
+    100024: EyeLookAt.L
+    100026: EyeLookAt.L_end
+    100028: EyeLookAt.R
+    100030: EyeLookAt.R_end
+    100032: Foot.L
+    100034: Foot.L_end
+    100036: Foot.R
+    100038: Foot.R_end
+    100040: Hand.L
+    100042: Hand.L_end
+    100044: Hand.R
+    100046: Hand.R_end
+    100048: Head
+    100050: Hips
+    100052: Jaw
+    100054: Jaw_end
+    100056: LeftEarBottom
+    100058: LeftEarTop
+    100060: LeftEarTop_end
+    100062: LookAt
+    100064: LowerArm.L
+    100066: LowerArm.R
+    100068: LowerLeg.L
+    100070: LowerLeg.R
+    100072: RightEarBottom
+    100074: RightEarTop
+    100076: RightEarTop_end
+    100078: Shoulder.L
+    100080: Shoulder.R
+    100082: Spine
+    100084: Tail
+    100086: Tail_end
+    100088: Tie
+    100090: UpperArm.L
+    100092: UpperArm.R
+    100094: UpperLeg.L
+    100096: UpperLeg.R
+    400000: Chest
+    400002: Collar
+    400004: CreamArmature
+    400006: CreamBody
+    400008: CreamLeftEye
+    400010: CreamRightEye
+    400012: //RootNode
+    400014: Dress
+    400016: Eye.L
+    400018: Eye.L_end
+    400020: Eye.R
+    400022: Eye.R_end
+    400024: EyeLookAt.L
+    400026: EyeLookAt.L_end
+    400028: EyeLookAt.R
+    400030: EyeLookAt.R_end
+    400032: Foot.L
+    400034: Foot.L_end
+    400036: Foot.R
+    400038: Foot.R_end
+    400040: Hand.L
+    400042: Hand.L_end
+    400044: Hand.R
+    400046: Hand.R_end
+    400048: Head
+    400050: Hips
+    400052: Jaw
+    400054: Jaw_end
+    400056: LeftEarBottom
+    400058: LeftEarTop
+    400060: LeftEarTop_end
+    400062: LookAt
+    400064: LowerArm.L
+    400066: LowerArm.R
+    400068: LowerLeg.L
+    400070: LowerLeg.R
+    400072: RightEarBottom
+    400074: RightEarTop
+    400076: RightEarTop_end
+    400078: Shoulder.L
+    400080: Shoulder.R
+    400082: Spine
+    400084: Tail
+    400086: Tail_end
+    400088: Tie
+    400090: UpperArm.L
+    400092: UpperArm.R
+    400094: UpperLeg.L
+    400096: UpperLeg.R
+    2300000: CreamLeftEye
+    2300002: CreamRightEye
+    3300000: CreamLeftEye
+    3300002: CreamRightEye
+    4300000: CreamLeftEye
+    4300002: CreamRightEye
+    4300004: CreamBody
     4300006: Dress
-    4300008: CreamRightEye
-    4300010: CreamLeftEye
+    4300008: Collar
+    4300010: Tie
     9500000: //RootNode
     13700000: Collar
     13700002: CreamBody
-    13700004: CreamLeftEye
-    13700006: CreamRightEye
-    13700008: Dress
-    13700010: Tie
+    13700004: Dress
+    13700006: Tie
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CreamEar
+    second: {fileID: 2100000, guid: 471aef787a5742f44952a969fc6592e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CreamEyeLid
+    second: {fileID: 2100000, guid: 4a6aef39c53bf654d9a2167f92db5b0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CreamEyeShadow
+    second: {fileID: 2100000, guid: 46205eeb593fff94ea71f5702399db6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CreamEyes
+    second: {fileID: 2100000, guid: c2740f0ec9f455d43a30e4e0920f0602, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CreamFace
+    second: {fileID: 2100000, guid: e3eda135f1f20e04dab5ba3380413406, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CreamNose
+    second: {fileID: 2100000, guid: fc6ba546138e68740a61dcd4e1c4dc09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CreamSclera
+    second: {fileID: 2100000, guid: 0da6e4122d880f145982ea4c489e5749, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CreamSocks
+    second: {fileID: 2100000, guid: 65c2051f1455fcb4a89bbed86829d67e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CreamTail
+    second: {fileID: 2100000, guid: 7e83178219513cf4faa17c3400178636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 9bc311bb513c4034e83b5dde8d87f72a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShoeOrange.001
+    second: {fileID: 2100000, guid: 6dab73aac74959f4b8c207aba510c9c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShoeSole.001
+    second: {fileID: 2100000, guid: bf450d4a7aa7b614aaa29c78dc994f11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShoeYellow.001
+    second: {fileID: 2100000, guid: 8300e3f02738e8b49a089cd70e23a457, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -99,6 +201,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -282,17 +385,36 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
+    - boneName: Eye.L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye.R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
     skeleton:
     - name: CreamTheRabbit(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Camera
-      parentName: CreamTheRabbit(Clone)
-      position: {x: 3.1921453, y: 10.972016, z: 24.108427}
-      rotation: {x: 0.0028033908, y: -0.99673575, z: 0.039565906, w: 0.07031721}
-      scale: {x: 100, y: 100, z: 100.00001}
     - name: Collar
       parentName: CreamTheRabbit(Clone)
       position: {x: -0.048683777, y: 7.323084, z: 0}
@@ -323,9 +445,74 @@ ModelImporter:
       position: {x: -0, y: 0.006823627, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Head_end
+    - name: LeftEarBottom
       parentName: Head
-      position: {x: -0, y: 0.046174124, z: 0}
+      position: {x: -0.011789343, y: 0.04691058, z: -0.0050683725}
+      rotation: {x: -0.1900178, y: 0.695857, z: 0.19663793, w: 0.66408575}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: LeftEarTop
+      parentName: LeftEarBottom
+      position: {x: -4.0978193e-10, y: 0.03351156, z: -0.0000000020116566}
+      rotation: {x: -0.03199241, y: -0.019977657, z: -0.011291608, w: 0.99922466}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: LeftEarTop_end
+      parentName: LeftEarTop
+      position: {x: -0, y: 0.033150632, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightEarBottom
+      parentName: Head
+      position: {x: 0.012343297, y: 0.04691058, z: -0.0050683725}
+      rotation: {x: 0.20657583, y: 0.70055956, z: -0.17916399, w: 0.6591229}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: RightEarTop
+      parentName: RightEarBottom
+      position: {x: -4.4703483e-10, y: 0.033511553, z: 0.000000010374933}
+      rotation: {x: 0.032553494, y: -0.033806883, z: -0.009554142, w: 0.99885243}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: RightEarTop_end
+      parentName: RightEarTop
+      position: {x: -0, y: 0.033150632, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye.L
+      parentName: Head
+      position: {x: -0.000021481514, y: 0.024352657, z: 0.00006696522}
+      rotation: {x: -0.14961071, y: 0.6634298, z: 0.72005284, w: 0.13784575}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: CreamLeftEye
+      parentName: Eye.L
+      position: {x: -0.0026162756, y: 0.02231605, z: -0.0020853328}
+      rotation: {x: -0.011682715, y: 0.069565155, z: 0.97644305, w: -0.20391963}
+      scale: {x: 0.27671984, y: 0.21527588, z: 0.70047766}
+    - name: Eye.L_end
+      parentName: Eye.L
+      position: {x: -0, y: 0.022503326, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye.R
+      parentName: Head
+      position: {x: 0.000054225922, y: 0.024352657, z: 0.00006696522}
+      rotation: {x: 0.14940825, y: 0.6634616, z: 0.7201018, w: -0.13765639}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CreamRightEye
+      parentName: Eye.R
+      position: {x: 0.0026338308, y: 0.022304578, z: -0.0020858191}
+      rotation: {x: 0.011640149, y: 0.06955437, z: 0.9765014, w: 0.20364612}
+      scale: {x: 0.2767198, y: 0.21527587, z: 0.70047766}
+    - name: Eye.R_end
+      parentName: Eye.R
+      position: {x: -0, y: 0.0224927, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaw
+      parentName: Head
+      position: {x: -0, y: 0.005001545, z: 0}
+      rotation: {x: -0.020783145, y: 0.7068012, z: 0.70680135, w: 0.020788169}
+      scale: {x: 1, y: 0.9999996, z: 1}
+    - name: Jaw_end
+      parentName: Jaw
+      position: {x: -0, y: 0.014254881, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Shoulder.L
@@ -419,21 +606,46 @@ ModelImporter:
       position: {x: -0, y: 0.021561548, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+    - name: Tail
+      parentName: Hips
+      position: {x: 7.0473914e-20, y: 0.0060946215, z: -0.0055116694}
+      rotation: {x: -0.4301253, y: -0.00000010761848, z: 0.000000051274924, w: 0.9027692}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_end
+      parentName: Tail
+      position: {x: -0, y: 0.0047677434, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LookAt
+      parentName: CreamArmature
+      position: {x: -0, y: -0.048717234, z: 0.03792535}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1.5269786, y: 0.5861252, z: 0.5861252}
+    - name: EyeLookAt.L
+      parentName: LookAt
+      position: {x: -0.013862378, y: 0.010516372, z: 0.00006696701}
+      rotation: {x: -0.0000008074073, y: 0.63499886, z: 0.7725131, w: -0.0000006685576}
+      scale: {x: 1.8888594, y: 0.9999998, z: 0.9999998}
+    - name: EyeLookAt.L_end
+      parentName: EyeLookAt.L
+      position: {x: -0, y: 0.021280348, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeLookAt.R
+      parentName: LookAt
+      position: {x: 0.013862378, y: 0.010516372, z: 0.00006696701}
+      rotation: {x: -0.0000009009295, y: 0.63499886, z: 0.7725131, w: -0.00000074599683}
+      scale: {x: 1.8888594, y: 0.9999998, z: 0.9999998}
+    - name: EyeLookAt.R_end
+      parentName: EyeLookAt.R
+      position: {x: -0, y: 0.021280348, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     - name: CreamBody
       parentName: CreamTheRabbit(Clone)
       position: {x: -0, y: 9.764886, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 245.35475, y: 245.35475, z: 245.35475}
-    - name: CreamLeftEye
-      parentName: CreamTheRabbit(Clone)
-      position: {x: -0.64138997, y: 9.245527, z: 2.1353374}
-      rotation: {x: -0.62660897, y: -0.011976803, z: 0.014891464, w: 0.7790995}
-      scale: {x: 27.671986, y: 21.527592, z: 70.047775}
-    - name: CreamRightEye
-      parentName: CreamTheRabbit(Clone)
-      position: {x: 0.64138925, y: 9.245527, z: 2.1353374}
-      rotation: {x: -0.62660885, y: 0.011978283, z: -0.014893295, w: 0.7790995}
-      scale: {x: 27.671986, y: 21.527592, z: 70.047775}
     - name: Dress
       parentName: CreamTheRabbit(Clone)
       position: {x: -0, y: 6.0694613, z: 0}
