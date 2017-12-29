@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5fde696e06d916548be814f8c438f7ce
-timeCreated: 1514513990
+timeCreated: 1514574255
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -34,26 +34,28 @@ ModelImporter:
     100052: Jaw
     100054: Jaw_end
     100056: LeftEarBottom
-    100058: LeftEarTop
-    100060: LeftEarTop_end
-    100062: LookAt
-    100064: LowerArm.L
-    100066: LowerArm.R
-    100068: LowerLeg.L
-    100070: LowerLeg.R
-    100072: RightEarBottom
-    100074: RightEarTop
-    100076: RightEarTop_end
-    100078: Shoulder.L
-    100080: Shoulder.R
-    100082: Spine
-    100084: Tail
-    100086: Tail_end
-    100088: Tie
-    100090: UpperArm.L
-    100092: UpperArm.R
-    100094: UpperLeg.L
-    100096: UpperLeg.R
+    100058: LeftEarMiddle
+    100060: LeftEarTop
+    100062: LeftEarTop_end
+    100064: LookAt
+    100066: LowerArm.L
+    100068: LowerArm.R
+    100070: LowerLeg.L
+    100072: LowerLeg.R
+    100074: RightEarBottom
+    100076: RightEarMiddle
+    100078: RightEarTop
+    100080: RightEarTop_end
+    100082: Shoulder.L
+    100084: Shoulder.R
+    100086: Spine
+    100088: Tail
+    100090: Tail_end
+    100092: Tie
+    100094: UpperArm.L
+    100096: UpperArm.R
+    100098: UpperLeg.L
+    100100: UpperLeg.R
     400000: Chest
     400002: Collar
     400004: CreamArmature
@@ -83,26 +85,41 @@ ModelImporter:
     400052: Jaw
     400054: Jaw_end
     400056: LeftEarBottom
-    400058: LeftEarTop
-    400060: LeftEarTop_end
-    400062: LookAt
-    400064: LowerArm.L
-    400066: LowerArm.R
-    400068: LowerLeg.L
-    400070: LowerLeg.R
-    400072: RightEarBottom
-    400074: RightEarTop
-    400076: RightEarTop_end
-    400078: Shoulder.L
-    400080: Shoulder.R
-    400082: Spine
-    400084: Tail
-    400086: Tail_end
-    400088: Tie
-    400090: UpperArm.L
-    400092: UpperArm.R
-    400094: UpperLeg.L
-    400096: UpperLeg.R
+    400058: LeftEarMiddle
+    400060: LeftEarTop
+    400062: LeftEarTop_end
+    400064: LookAt
+    400066: LowerArm.L
+    400068: LowerArm.R
+    400070: LowerLeg.L
+    400072: LowerLeg.R
+    400074: RightEarBottom
+    400076: RightEarMiddle
+    400078: RightEarTop
+    400080: RightEarTop_end
+    400082: Shoulder.L
+    400084: Shoulder.R
+    400086: Spine
+    400088: Tail
+    400090: Tail_end
+    400092: Tie
+    400094: UpperArm.L
+    400096: UpperArm.R
+    400098: UpperLeg.L
+    400100: UpperLeg.R
+    2100000: CreamEyes
+    2100002: CreamSocks
+    2100004: CreamSclera
+    2100006: CreamTail
+    2100008: CreamEyeShadow
+    2100010: CreamEyeLid
+    2100012: CreamFace
+    2100014: ShoeOrange.001
+    2100016: ShoeSole.001
+    2100018: ShoeYellow.001
+    2100020: CreamEar
+    2100022: CreamNose
+    2100024: Material
     2300000: CreamLeftEye
     2300002: CreamRightEye
     3300000: CreamLeftEye
@@ -118,77 +135,12 @@ ModelImporter:
     13700002: CreamBody
     13700004: Dress
     13700006: Tie
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CreamEar
-    second: {fileID: 2100000, guid: 471aef787a5742f44952a969fc6592e8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CreamEyeLid
-    second: {fileID: 2100000, guid: 4a6aef39c53bf654d9a2167f92db5b0f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CreamEyeShadow
-    second: {fileID: 2100000, guid: 46205eeb593fff94ea71f5702399db6d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CreamEyes
-    second: {fileID: 2100000, guid: c2740f0ec9f455d43a30e4e0920f0602, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CreamFace
-    second: {fileID: 2100000, guid: e3eda135f1f20e04dab5ba3380413406, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CreamNose
-    second: {fileID: 2100000, guid: fc6ba546138e68740a61dcd4e1c4dc09, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CreamSclera
-    second: {fileID: 2100000, guid: 0da6e4122d880f145982ea4c489e5749, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CreamSocks
-    second: {fileID: 2100000, guid: 65c2051f1455fcb4a89bbed86829d67e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CreamTail
-    second: {fileID: 2100000, guid: 7e83178219513cf4faa17c3400178636, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 9bc311bb513c4034e83b5dde8d87f72a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ShoeOrange.001
-    second: {fileID: 2100000, guid: 6dab73aac74959f4b8c207aba510c9c1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ShoeSole.001
-    second: {fileID: 2100000, guid: bf450d4a7aa7b614aaa29c78dc994f11, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ShoeYellow.001
-    second: {fileID: 2100000, guid: 8300e3f02738e8b49a089cd70e23a457, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -226,6 +178,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -448,31 +402,41 @@ ModelImporter:
     - name: LeftEarBottom
       parentName: Head
       position: {x: -0.011789343, y: 0.04691058, z: -0.0050683725}
-      rotation: {x: -0.1900178, y: 0.695857, z: 0.19663793, w: 0.66408575}
-      scale: {x: 0.9999999, y: 1, z: 0.9999999}
-    - name: LeftEarTop
+      rotation: {x: 0.3095018, y: 0.48508394, z: 0.30705744, w: 0.7580356}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftEarMiddle
       parentName: LeftEarBottom
-      position: {x: -4.0978193e-10, y: 0.03351156, z: -0.0000000020116566}
-      rotation: {x: -0.03199241, y: -0.019977657, z: -0.011291608, w: 0.99922466}
-      scale: {x: 0.99999994, y: 1, z: 1}
+      position: {x: -0.0000000058114527, y: 0.012280784, z: -0.0000000023841857}
+      rotation: {x: -0.017846629, y: -0.22804941, z: 0.63180685, w: 0.7406046}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: LeftEarTop
+      parentName: LeftEarMiddle
+      position: {x: 0.0000000038743018, y: 0.021366166, z: -0.0000000011920929}
+      rotation: {x: 0.28203732, y: -0.5956176, z: 0.24447908, w: 0.7112838}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: LeftEarTop_end
       parentName: LeftEarTop
-      position: {x: -0, y: 0.033150632, z: 0}
+      position: {x: -0, y: 0.030620169, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: RightEarBottom
       parentName: Head
       position: {x: 0.012343297, y: 0.04691058, z: -0.0050683725}
-      rotation: {x: 0.20657583, y: 0.70055956, z: -0.17916399, w: 0.6591229}
-      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
-    - name: RightEarTop
+      rotation: {x: 0.33283982, y: 0.76961493, z: 0.32054573, w: 0.44063696}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: RightEarMiddle
       parentName: RightEarBottom
-      position: {x: -4.4703483e-10, y: 0.033511553, z: 0.000000010374933}
-      rotation: {x: 0.032553494, y: -0.033806883, z: -0.009554142, w: 0.99885243}
-      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      position: {x: 8.9406965e-10, y: 0.012280781, z: 0.000000001490116}
+      rotation: {x: -0.018036263, y: 0.17891766, z: 0.6715398, w: 0.7188167}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: RightEarTop
+      parentName: RightEarMiddle
+      position: {x: -0.0000000020861626, y: 0.021366172, z: 5.9604643e-10}
+      rotation: {x: 0.24447832, y: -0.7112846, z: 0.28203738, w: 0.59561694}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999998}
     - name: RightEarTop_end
       parentName: RightEarTop
-      position: {x: -0, y: 0.033150632, z: 0}
+      position: {x: -0, y: 0.030620169, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye.L
