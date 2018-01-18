@@ -6,11 +6,12 @@ using UnityEngine.AI;
 public class CameraFollowHandler : MonoBehaviour
 {
     public Transform followTarget;
-    //private Vector3 offset;
+    public float speed;
+    private Vector3 offset;
 
     void Start()
     {
-        //offset = transform.position;
+        offset = new Vector3(0, 3, 0);
         Debug.Log(followTarget);
     }
 
@@ -18,8 +19,8 @@ public class CameraFollowHandler : MonoBehaviour
     {
         // Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance.
         //transform.position = followTarget.transform.position + offset;
-        NavMeshAgent nma = gameObject.GetComponent<NavMeshAgent>();
-        nma.SetDestination(followTarget.position);
+        float step = speed * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(transform.position, followTarget.position - (followTarget.forward * 10.0f) + offset, step);
         transform.LookAt(followTarget.position);
     }
 
